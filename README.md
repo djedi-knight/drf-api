@@ -42,6 +42,14 @@ python3 manage.py runserver
 
 ## Development
 
+### Creating a User
+
+Run the following command to create a new super-user:
+
+```
+python3 manage.py createsuperuser
+```
+
 ### Creating Migrations
 
 Run the following command to create a new migration:
