@@ -48,7 +48,7 @@ class ViewTestCase(TestCase):
         """Test that the api has user authorization."""
         new_client = APIClient()
         response = new_client.get('/bucketlists/', kwargs={'pk': 1}, format="json")
-        self.assertEqual(response.status_code, status.HTTP_403_FORBIDDEN)
+        self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
 
     def test_api_can_get_a_bucketlist(self):
         """Test the api can get a given bucketlist."""
