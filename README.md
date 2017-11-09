@@ -36,6 +36,24 @@ source venv/bin/activate
 
 *End with an example of getting some data out of the system or using it for a little demo*
 
+## Development
+
+### Creating Migrations
+
+Run the following command to create a new migration:
+
+```
+python3 manage.py makemigrations
+```
+
+### Applying Migrations
+
+Run the following to apply the latest migrations to the database:
+
+```
+python3 manage.py migrate
+```
+
 ## Authors
 
 * **Shawn Daichendt** - [djedi-knight](https://github.com/djedi-knight)
