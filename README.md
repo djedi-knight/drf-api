@@ -34,7 +34,11 @@ virtualenv -p /usr/local/bin/python3 venv
 source venv/bin/activate
 ```
 
-*End with an example of getting some data out of the system or using it for a little demo*
+3. Run the server
+
+```
+python3 manage.py runserver
+```
 
 ## Development
 
