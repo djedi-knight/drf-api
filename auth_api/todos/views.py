@@ -1,8 +1,8 @@
 from rest_framework import generics
 from rest_framework.response import Response
 from rest_framework.reverse import reverse
-from .models import Todo
 from .serializers import TodoSerializer
+from .models import Todo
 
 class TodoList(generics.ListCreateAPIView):
     queryset = Todo.objects.all()
