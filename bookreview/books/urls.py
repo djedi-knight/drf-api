@@ -1,9 +1,10 @@
-from django.conf.urls import patterns, url
+from django.conf.urls import url, include
 from rest_framework.urlpatterns import format_suffix_patterns
-from bookreview import views
+from books import views
 
-urlpatterns = patterns(
-    '', url(r'^$', views.index_view, name='index_view'),
-)
+
+urlpatterns = {
+    url(r'^$', views.index_view, name="index_view"),
+}
 
 urlpatterns = format_suffix_patterns(urlpatterns)
