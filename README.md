@@ -13,7 +13,8 @@ See deployment for notes on how to deploy the project on a live system.
 
 You will need to install the following before installing the application:
 
-1. [Install Python3](https://www.python.org/downloads/)
+- [Python3](https://www.python.org/downloads/)
+- [virtualenv](https://pypi.python.org/pypi/virtualenv)
 
 ### Installation
 
@@ -34,7 +35,13 @@ virtualenv -p /usr/local/bin/python3 venv
 source venv/bin/activate
 ```
 
-3. Run the server
+3. Install the Required Packages
+
+```
+pip install -r requirements.txt
+```
+
+4. Run the server
 
 ```
 python3 manage.py runserver
