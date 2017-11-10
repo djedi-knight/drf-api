@@ -1,6 +1,5 @@
 from rest_framework import serializers
-
-from todos.models import Todo
+from .models import Todo
 
 class TodoSerializer(serializers.HyperlinkedModelSerializer):
     user = serializers.ReadOnlyField(source='user.username')
