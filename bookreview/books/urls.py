@@ -5,6 +5,7 @@ from books import views
 
 urlpatterns = {
     url(r'^$', views.index_view, name="index_view"),
+    url(r'^authors/$', views.AuthorView.as_view(), name='author-list'),
 }
 
 urlpatterns = format_suffix_patterns(urlpatterns)
