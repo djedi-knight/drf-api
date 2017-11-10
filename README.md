@@ -35,6 +35,12 @@ virtualenv -p /usr/local/bin/python3 venv
 source venv/bin/activate
 ```
 
+*Note: to deactivate the environment, run the following command:*
+
+```
+deactivate
+```
+
 3. Install the Required Packages
 
 ```
@@ -44,7 +50,7 @@ pip install -r requirements.txt
 4. Run the server
 
 ```
-python3 manage.py runserver
+fab runserver
 ```
 
 ## Development
@@ -72,6 +78,15 @@ Run the following to apply the latest migrations to the database:
 ```
 python3 manage.py migrate
 ```
+
+## Packages
+
+The following packages are currently being used:
+
+- (django)[]
+- (djangorestframework)[]
+- (coreapi)[]
+- (fabric3)[]
 
 ## Authors
 
