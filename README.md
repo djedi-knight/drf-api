@@ -72,4 +72,5 @@ python3 manage.py migrate
 
 ## Acknowledgments
 
-* [DRF REST API Tutorial](https://scotch.io/tutorials/build-a-rest-api-with-django-a-test-driven-approach-part-1)
+* [DRF REST API Tutorial (bucketlist)](https://scotch.io/tutorials/build-a-rest-api-with-django-a-test-driven-approach-part-1)
+* [DRF REST API Tutorial (auth_api)](https://medium.com/@ktruong008/building-an-api-with-django-rest-framework-and-class-based-views-75b369b30396)

@@ -26,9 +26,8 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = User
-        fields = ('url', 'id', 'username',
-                  'password', 'first_name', 'last_name',
-                  'email', 'todos')
+        fields = ('url', 'id', 'username', 'password',
+            'first_name', 'last_name', 'email', 'todos')
         extra_kwargs = {
             'url': {
                 'view_name': 'users:user-detail',
