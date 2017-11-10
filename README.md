@@ -1,6 +1,6 @@
 # Django Rest Framework (DRF) API
 
-An example REST API application using [DRF](http://www.django-rest-framework.org/)
+A collection of example REST API projects using [DRF](http://www.django-rest-framework.org/)
 
 ## Getting Started
 
@@ -55,9 +55,29 @@ fab runserver
 
 ## Development
 
+### Creating a Project
+
+Run the following command to create a new project:
+
+```
+django-admin startproject project_name
+```
+
+Where *project_name* is the name of the project to create
+
+### Creating an Application
+
+Run the following command to create a new application:
+
+```
+python3 manage.py startapp app_name
+```
+
+Where *app_name* is the name of the app to create
+
 ### Creating a User
 
-Run the following command to create a new super-user:
+Run the following command to create a new superuser:
 
 ```
 python3 manage.py createsuperuser
@@ -83,10 +103,10 @@ python3 manage.py migrate
 
 The following packages are currently being used:
 
-- (django)[]
-- (djangorestframework)[]
-- (coreapi)[]
-- (fabric3)[]
+- (django)[https://pypi.python.org/pypi/django]
+- (djangorestframework)[https://pypi.python.org/pypi/djangorestframework]
+- (coreapi)[https://pypi.python.org/pypi/coreapi]
+- (fabric3)[https://pypi.python.org/pypi/fabric3]
 
 ## Authors
 
@@ -94,5 +114,6 @@ The following packages are currently being used:
 
 ## Acknowledgments
 
-* [DRF REST API Tutorial (bucketlist)](https://scotch.io/tutorials/build-a-rest-api-with-django-a-test-driven-approach-part-1)
 * [DRF REST API Tutorial (auth_api)](https://medium.com/@ktruong008/building-an-api-with-django-rest-framework-and-class-based-views-75b369b30396)
+* [DRF REST API Tutorial (bookreview)](https://code.tutsplus.com/tutorials/beginners-guide-to-the-django-rest-framework--cms-19786)
+* [DRF REST API Tutorial (bucketlist)](https://scotch.io/tutorials/build-a-rest-api-with-django-a-test-driven-approach-part-1)
