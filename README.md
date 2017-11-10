@@ -103,10 +103,10 @@ python3 manage.py migrate
 
 The following packages are currently being used:
 
-- (django)[https://pypi.python.org/pypi/django]
-- (djangorestframework)[https://pypi.python.org/pypi/djangorestframework]
-- (coreapi)[https://pypi.python.org/pypi/coreapi]
-- (fabric3)[https://pypi.python.org/pypi/fabric3]
+- [django](https://pypi.python.org/pypi/django)
+- [djangorestframework](https://pypi.python.org/pypi/djangorestframework)
+- [coreapi(https://pypi.python.org/pypi/coreapi)
+- [fabric3](https://pypi.python.org/pypi/fabric3)
 
 ## Authors
 
