@@ -15,7 +15,7 @@ def index_view(request):
     return render(request, 'index.html', response)
 
 
-class AuthorView(generics.ListAPIView):
+class AuthorView(generics.ListCreateAPIView):
     """
     Returns a list of all authors.
     """
