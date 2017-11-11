@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework import generics
 from .serializers import AuthorSerializer
-from .models import Author
+from .models import Author, Book
 
 
 def index_view(request):
@@ -10,7 +10,7 @@ def index_view(request):
     """
     response = {
         'authors': Author.objects.all(),
-        # 'books': Book.objects.all(),
+        'books': Book.objects.all(),
     }
     return render(request, 'index.html', response)
 
